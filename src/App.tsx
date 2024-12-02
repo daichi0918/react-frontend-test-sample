@@ -7,7 +7,7 @@ import { Counter } from './components/counter/Counter';
 function App() {
   return (
     <div className="App">
-      <Contact />
+      {/* <Contact /> */}
       <Counter />
     </div>
   );
