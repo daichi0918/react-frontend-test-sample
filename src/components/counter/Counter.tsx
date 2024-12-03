@@ -3,7 +3,7 @@ import useCounter from '../../hooks/useCounter';
 
 export const Counter = () => {
   const [amount, setAmount] = useState(0);
-  const { count, increment, decrement } = useCounter();
+  const { count, increment, decrement } = useCounter({ initialCount: 10 });
   return (
     <div>
       <h1>{count}</h1>
